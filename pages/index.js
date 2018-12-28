@@ -10,6 +10,9 @@ export default () => (
         <h3>Site in progress...</h3>
         <ul>
             <li>Pages: Home, blog, about, now</li>
+            <li>Blog to be static</li>
+            <li>About to have details about me</li>
+            <li>Now page to be about whats happening in life now</li>
         </ul>
 
 
