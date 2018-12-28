@@ -5,7 +5,7 @@
             "src": "next.config.js",
             "use": "@now/next"
         }
-    ]
+    ],
     "alias": [
         "2019.ayoungh.co.uk"
     ]
