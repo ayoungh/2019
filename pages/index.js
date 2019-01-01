@@ -33,6 +33,7 @@ export default () => (
       .home {
         background-image: url('/static/tyson-dudley-134446-unsplash.jpg');
         background-size: cover;
+        background-color: #1d1d1d;
         height: 100vh;
         background-position: center center;
       }

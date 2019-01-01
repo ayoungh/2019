@@ -4,6 +4,7 @@ import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Sidebar from '../../components/sidebar';
 import Meta from '../../components/meta';
+import Card from '../../components/card.js';
 
 export default () => (
     <div>
@@ -17,12 +18,19 @@ export default () => (
 
         <div className="content">
             <h3>The Blog</h3>
-            <ul>
-                <li><Link href="/blog/2019"><a>2019 Article</a></Link></li>
-            </ul>
+
+            <div className="posts">
+                <Card title="Year 2019" post="2019"/>
+                <Card title="Things I listen to" post="listening"/>
+
+            </div>
         </div>
-
-
         <Footer />
+        <style jsx>{`
+            .content .posts {
+                display: flex;
+                overflow: hidden;
+            }
+        `}</style>
     </div>
 )
