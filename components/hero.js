@@ -1,5 +1,5 @@
 //bulma hero
-export default () => (<section className="hero is-fullheight home-hero">
+export default () => (<section className="hero is-fullheight home-hero snp">
   <div className="hero-body">
     <div className="container">
         <h1 className="title has-text-light is-size-1">

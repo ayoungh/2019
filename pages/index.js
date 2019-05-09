@@ -6,33 +6,56 @@ import Hero from '../components/hero';
 import Sidebar from '../components/sidebar';
 
 export default () => (
-    <div className="home">
+    <div className="home snappy">
         <Meta title="Home" />
         <Nav />
         <Hero />
         <Sidebar />
 
-        <section className="section is-large">
+        <section className="hero is-large is-warning is-bold">
+        <div className="hero-body">
             <div className="container">
-                <h1 className="title">I enjoy being creative and learning </h1>
-                <h2 className="subtitle">
-                    A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-                </h2>
+            <h1 className="title">
+                I enjoy being creative and learning.
+            </h1>
             </div>
-        </section>
-        <section className="section is-large">
+        </div>
+        </section>       
+        <section className="hero is-large is-success is-bold">
+        <div className="hero-body">
             <div className="container">
-                <h1 className="title">I have worked on over 100 websites.</h1>
-                <h2 className="subtitle">
-                    A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-                </h2>
+            <h2 className="title has-text-right">
+                I've worked on over <strong>200+</strong> websites.
+            </h2>
             </div>
-        </section>
+        </div>
+        </section>       
+        <section className="hero is-medium is-info is-bold">
+        <div className="hero-body">
+            <div className="container">
+            <h3 className="title has-text-centered">
+                Let's connect.
+            </h3>
+            </div>
+        </div>
+        </section>       
+
+
+        <div className="notification is-danger stuck">
+            Sorry, this website is still being worked on.
+        </div>
 
         <Footer />
 
-        <style jsx>{`
-        
+        <style jsx>{` 
+
+.snappy {
+    scroll-snap-type: y mandatory;
+}
+
+.snp {
+    scroll-snap-align: start;        
+}
         `}</style>
     </div>
 )

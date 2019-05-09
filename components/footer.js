@@ -6,7 +6,7 @@ export default () => (
         <footer className="footer is-dark">
             <div className="content has-text-centered">
                 <p>
-                    Made 🇬🇧 © {new Date().getFullYear()}
+                    Made in 🇬🇧 © {new Date().getFullYear()}
                 </p>
             </div>
 
