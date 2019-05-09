@@ -32,11 +32,11 @@ export default function Nav(props) {
 
   <div id="navbarMain" className={cls}>
     <div className="navbar-start">
-      <Link href="/">
+      {/* <Link href="/">
         <a className="navbar-item" >
             Home
         </a>
-      </Link>
+      </Link> */}
 
       <Link href="/about">
         <a className="navbar-item" >    
